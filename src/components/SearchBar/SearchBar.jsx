@@ -36,6 +36,7 @@ const SearchBar = () => {
       </div>
       <div className="search-bar__navigation">
         <Button
+          isActive={filterType === "favorites"}
           className="button-favorites"
           tabIndex={3}
           onClick={() => setFilterType("favorites")}
@@ -43,6 +44,7 @@ const SearchBar = () => {
           <i className="codicon codicon-star-full icon-star"></i>FAVORITES
         </Button>
         <Button
+          isActive={filterType === "all"}
           className="button-all-coins"
           tabIndex={4}
           onClick={() => setFilterType("all")}
