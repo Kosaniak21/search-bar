@@ -1,0 +1,11 @@
+.navigation {
+   position: relative;
+
+   button {
+      cursor: pointer;
+   }
+
+   i {
+      cursor: pointer;
+   }
+}

@@ -1,0 +1,20 @@
+.coin {
+   background-color: black;
+   color: azure;
+   border: 1px solid black;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   padding-left: 15px;
+   cursor: pointer;
+
+   p {
+      margin: 0;
+   }
+}
+
+.coin:hover {
+   background-color: #878787;
+   border-radius: 12px;
+}

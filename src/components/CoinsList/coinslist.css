@@ -1,0 +1,20 @@
+.coins-list {
+   width: 288px;
+   background-color: black;
+   border-bottom-left-radius: 12px;
+   border-bottom-right-radius: 12px;
+}
+
+.coins-list::-webkit-scrollbar {
+   width: 8px;
+   height: 100px;
+}
+
+.coins-list::-webkit-scrollbar-track {
+   background-color: black;
+}
+
+.coins-list::-webkit-scrollbar-thumb {
+   height: 100px;
+   background-color: azure;
+}

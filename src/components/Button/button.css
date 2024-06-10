@@ -1,0 +1,86 @@
+.button-search {
+   width: 120px;
+   height: 40px;
+   background-color: black;
+   position: relative;
+   color: azure;
+   border: 3px solid transparent;
+   border-radius: 12px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 8px;
+   padding-right: 8px;
+   font-weight: 500;
+   font-size: 17px;
+}
+
+.button-search:hover {
+   background-color: #878787;
+}
+
+.button-search:focus {
+   background-color: #878787;
+   outline: none;
+}
+
+.button-favorites {
+   height: 26px;
+   background-color: black;
+   position: relative;
+   color: azure;
+   border: 3px solid transparent;
+   border-radius: 12px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+   padding-left: 8px;
+   padding-right: 8px;
+   font-weight: 500;
+   font-size: 15px;
+}
+
+.button-favorites:hover {
+   background-color: #878787;
+}
+
+.button-favorites:focus {
+   background-color: #878787;
+   outline: none;
+}
+
+.button-all-coins {
+   height: 26px;
+   background-color: black;
+   position: relative;
+   color: azure;
+   border: 3px solid transparent;
+   border-radius: 12px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-left: 8px;
+   padding-right: 8px;
+   font-weight: 500;
+   font-size: 15px;
+}
+
+.button-all-coins:hover {
+   background-color: #878787;
+}
+
+.button-all-coins:focus {
+   background-color: #878787;
+   outline: none;
+}
+
+.button-active {
+   background-color: #878787;
+   border: 3px solid rgb(158, 158, 158);
+}
+
+.icon-button {
+   transform: rotate(270deg);
+   font-size: 21px !important;
+}
