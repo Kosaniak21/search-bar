@@ -13,7 +13,6 @@ function App() {
   };
 
   const handleClickOutside = (event) => {
-    console.log(event.target.closest(".search-bar"));
     if (!event.target.closest(".navigation")) {
       setSearchVisible(false);
     }
